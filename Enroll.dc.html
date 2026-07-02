@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FAF9F6;font-family:'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;color:#202327;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}
+input,select,textarea,button{font-family:inherit}
+</style>
+</helmet>
+
+<div style="position:sticky;top:0;z-index:50;background:rgba(250,249,246,0.94);backdrop-filter:blur(8px);border-bottom:1px solid #E5E1DA">
+  <div style="max-width:1200px;margin:0 auto;padding:0 32px;height:76px;display:flex;align-items:center;justify-content:space-between">
+    <a href="Home.dc.html" style="display:flex;align-items:center"><img src="uploads/logo3.png" alt="BullForce Powerwash" style="height:36px;display:block"></a>
+    <div style="display:flex;align-items:center;gap:28px">
+      <a href="Home.dc.html" style="font-size:14px;font-weight:600;color:#4A4E54" style-hover="color:#E8532C">Home</a>
+      <a href="Training.dc.html" style="font-size:14px;font-weight:600;color:#4A4E54" style-hover="color:#E8532C">Training</a>
+      <a href="Partners.dc.html" style="font-size:14px;font-weight:600;color:#4A4E54" style-hover="color:#E8532C">Partners</a>
+      <a href="Enroll.dc.html" style="font-size:14px;font-weight:700;color:#E8532C">Enroll</a>
+      <a href="#apply" style="background:#E8532C;color:#FFFFFF;font-size:13px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;padding:12px 20px;border-radius:4px" style-hover="background:#C7431F">Apply Now</a>
+    </div>
+  </div>
+</div>
+
+<section data-screen-label="Enroll Hero" style="background:#FAF9F6">
+  <div style="max-width:1200px;margin:0 auto;padding:88px 32px 72px">
+    <div style="font-family:ui-monospace,'Menlo',monospace;font-size:12px;font-weight:700;letter-spacing:0.18em;color:#E8532C;margin-bottom:20px">FOR FUTURE TECHS &middot; NO EXPERIENCE REQUIRED</div>
+    <h1 style="margin:0 0 24px;font-size:64px;font-weight:900;line-height:0.98;letter-spacing:-0.015em;text-transform:uppercase;max-width:900px">Learn the trade.<br>Get certified. <span style="color:#E8532C">Go to work.</span></h1>
+    <p style="margin:0 0 36px;font-size:18px;line-height:1.6;color:#4A4E54;max-width:600px">Power washing is a real trade with real money in it &mdash; and Philly-area companies need techs right now. If you show up and put in the work, we&rsquo;ll teach you the rest and put you in front of companies that are hiring.</p>
+    <div style="display:flex;gap:14px;flex-wrap:wrap">
+      <a href="#apply" style="display:inline-flex;align-items:center;background:#E8532C;color:#FFFFFF;font-size:14px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;padding:18px 30px;border-radius:4px" style-hover="background:#C7431F">Start my application</a>
+      <a href="Training.dc.html" style="display:inline-flex;align-items:center;border:2px solid #202327;color:#202327;font-size:14px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;padding:16px 28px;border-radius:4px" style-hover="background:#202327;color:#FFFFFF">See the courses</a>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Pathway" style="background:#1F2226">
+  <div style="max-width:1200px;margin:0 auto;padding:96px 32px">
+    <div style="font-family:ui-monospace,'Menlo',monospace;font-size:12px;font-weight:700;letter-spacing:0.18em;color:#E8532C;margin-bottom:16px">THE PATHWAY</div>
+    <h2 style="margin:0 0 56px;font-size:44px;font-weight:800;letter-spacing:-0.01em;color:#FFFFFF">From application to first paycheck.</h2>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px">
+      <div style="background:#282C31;border-radius:10px;padding:28px">
+        <div style="font-size:40px;font-weight:900;color:#E8532C;line-height:1;margin-bottom:14px">01</div>
+        <div style="font-size:19px;font-weight:800;color:#FFFFFF;margin-bottom:10px">Apply</div>
+        <p style="margin:0;font-size:14px;line-height:1.6;color:#B9BCC0">Fill out the application below. No experience needed &mdash; we look for reliability and work ethic, not a resume.</p>
+      </div>
+      <div style="background:#282C31;border-radius:10px;padding:28px">
+        <div style="font-size:40px;font-weight:900;color:#E8532C;line-height:1;margin-bottom:14px">02</div>
+        <div style="font-size:19px;font-weight:800;color:#FFFFFF;margin-bottom:10px">Train</div>
+        <p style="margin:0;font-size:14px;line-height:1.6;color:#B9BCC0">Online modules at your own pace, plus hands-on field days in Philadelphia &mdash; real equipment, real surfaces, real supervision.</p>
+      </div>
+      <div style="background:#282C31;border-radius:10px;padding:28px">
+        <div style="font-size:40px;font-weight:900;color:#E8532C;line-height:1;margin-bottom:14px">03</div>
+        <div style="font-size:19px;font-weight:800;color:#FFFFFF;margin-bottom:10px">Certify</div>
+        <p style="margin:0;font-size:14px;line-height:1.6;color:#B9BCC0">Pass each written exam at 75%+ and clear the field assessment to earn the BullForce Certified Technician credential.</p>
+      </div>
+      <div style="background:#282C31;border-radius:10px;padding:28px">
+        <div style="font-size:40px;font-weight:900;color:#E8532C;line-height:1;margin-bottom:14px">04</div>
+        <div style="font-size:19px;font-weight:800;color:#FFFFFF;margin-bottom:10px">Get placed</div>
+        <p style="margin:0;font-size:14px;line-height:1.6;color:#B9BCC0">We introduce you to hiring partners across Philly, South Jersey, and Delaware County &mdash; companies that already trust the credential.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Requirements and Tuition" style="background:#FFFFFF">
+  <div style="max-width:1200px;margin:0 auto;padding:104px 32px;display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start">
+    <div>
+      <div style="font-family:ui-monospace,'Menlo',monospace;font-size:12px;font-weight:700;letter-spacing:0.18em;color:#E8532C;margin-bottom:16px">WHAT YOU NEED</div>
+      <h2 style="margin:0 0 28px;font-size:40px;font-weight:800;letter-spacing:-0.01em">Come as you are. Seriously.</h2>
+      <div style="display:grid;gap:18px;margin-bottom:36px">
+        <div style="display:flex;gap:14px"><span style="color:#E8532C;font-weight:900;flex-shrink:0">&#10003;</span><span style="font-size:15px;line-height:1.55;color:#33373C">18 or older with a valid ID</span></div>
+        <div style="display:flex;gap:14px"><span style="color:#E8532C;font-weight:900;flex-shrink:0">&#10003;</span><span style="font-size:15px;line-height:1.55;color:#33373C">Able to get to field-training days in Philadelphia</span></div>
+        <div style="display:flex;gap:14px"><span style="color:#E8532C;font-weight:900;flex-shrink:0">&#10003;</span><span style="font-size:15px;line-height:1.55;color:#33373C">Comfortable working outdoors and on your feet</span></div>
+        <div style="display:flex;gap:14px"><span style="color:#E8532C;font-weight:900;flex-shrink:0">&#10003;</span><span style="font-size:15px;line-height:1.55;color:#33373C">Ready to show up on time, every time &mdash; that&rsquo;s the whole secret</span></div>
+      </div>
+      <div style="background:#FAF9F6;border:1px solid #E5E1DA;border-radius:10px;padding:28px">
+        <div style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.16em;color:#85888C;margin-bottom:14px">NEXT COHORT</div>
+        <div style="font-size:20px;font-weight:800;margin-bottom:6px">Fall 2026 &mdash; Philadelphia</div>
+        <p style="margin:0;font-size:14px;line-height:1.6;color:#4A4E54">Session dates announcing soon. Apply now to hold a spot &mdash; seats are limited by field-day capacity, and applications are reviewed in order.</p>
+      </div>
+    </div>
+    <div>
+      <div style="font-family:ui-monospace,'Menlo',monospace;font-size:12px;font-weight:700;letter-spacing:0.18em;color:#E8532C;margin-bottom:16px">WHAT IT COSTS</div>
+      <h2 style="margin:0 0 28px;font-size:40px;font-weight:800;letter-spacing:-0.01em">Straight tuition. No surprises.</h2>
+      <div style="background:#FAF9F6;border:1px solid #E5E1DA;border-radius:10px;padding:32px">
+        <div style="display:grid;gap:14px;margin-bottom:22px">
+          <div style="display:flex;justify-content:space-between;border-bottom:1px solid #E5E1DA;padding-bottom:12px"><span style="font-size:15px;font-weight:600">PowerWash 101</span><span style="font-family:ui-monospace,'Menlo',monospace;font-size:14px;font-weight:700">$249</span></div>
+          <div style="display:flex;justify-content:space-between;border-bottom:1px solid #E5E1DA;padding-bottom:12px"><span style="font-size:15px;font-weight:600">PowerWash 102</span><span style="font-family:ui-monospace,'Menlo',monospace;font-size:14px;font-weight:700">$299</span></div>
+          <div style="display:flex;justify-content:space-between;border-bottom:1px solid #E5E1DA;padding-bottom:12px"><span style="font-size:15px;font-weight:600">Roof Washing 201</span><span style="font-family:ui-monospace,'Menlo',monospace;font-size:14px;font-weight:700">$349</span></div>
+          <div style="display:flex;justify-content:space-between;border-bottom:1px solid #E5E1DA;padding-bottom:12px"><span style="font-size:15px;font-weight:600">House Washing 301</span><span style="font-family:ui-monospace,'Menlo',monospace;font-size:14px;font-weight:700">$349</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:16px;font-weight:800">Full BCT path, bundled</span><span style="font-size:24px;font-weight:900;color:#E8532C">$995</span></div>
+        </div>
+        <div style="background:#FBEFEA;border:1px solid #F0D9CE;border-radius:8px;padding:16px;font-size:13.5px;line-height:1.55;color:#4A4E54"><strong style="color:#C7431F">Can&rsquo;t cover tuition?</strong> Some hiring partners sponsor seats for techs they plan to hire &mdash; your training paid, a job waiting. Ask about sponsored seats on your application.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Application" style="background:#FAF9F6;border-top:1px solid #EEEAE3">
+  <div id="apply" style="max-width:1200px;margin:0 auto;padding:104px 32px;display:grid;grid-template-columns:0.9fr 1.1fr;gap:72px;align-items:start">
+    <div>
+      <div style="font-family:ui-monospace,'Menlo',monospace;font-size:12px;font-weight:700;letter-spacing:0.18em;color:#E8532C;margin-bottom:16px">THE APPLICATION</div>
+      <h2 style="margin:0 0 20px;font-size:44px;font-weight:800;letter-spacing:-0.01em">Five minutes. That&rsquo;s it.</h2>
+      <p style="margin:0 0 24px;font-size:16px;line-height:1.65;color:#4A4E54">No essays, no transcripts. Tell us who you are and how to reach you &mdash; we&rsquo;ll call you back to talk through the program, cohort dates, and sponsorship options.</p>
+      <div style="display:grid;gap:10px">
+        <div style="font-size:14px;color:#4A4E54"><strong>Questions first?</strong> Call or text (267) 555-0134</div>
+        <div style="font-size:14px;color:#4A4E54"><strong>Email:</strong> training@bullforcepowerwash.com</div>
+      </div>
+    </div>
+    <div>
+      <sc-if value="{{ notSubmitted }}" hint-placeholder-val="{{ true }}">
+        <div style="background:#FFFFFF;border:1px solid #E5E1DA;border-radius:10px;padding:36px;display:grid;gap:18px">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+            <div><div style="font-size:12.5px;font-weight:700;letter-spacing:0.04em;margin-bottom:6px">Full name</div><input placeholder="Your name" style="width:100%;box-sizing:border-box;border:1px solid #D8D3CB;border-radius:6px;padding:13px 14px;font-size:14px;background:#FAF9F6" onChange="{{ setName }}"></div>
+            <div><div style="font-size:12.5px;font-weight:700;letter-spacing:0.04em;margin-bottom:6px">Phone</div><input placeholder="(___) ___-____" style="width:100%;box-sizing:border-box;border:1px solid #D8D3CB;border-radius:6px;padding:13px 14px;font-size:14px;background:#FAF9F6" onChange="{{ setPhone }}"></div>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+            <div><div style="font-size:12.5px;font-weight:700;letter-spacing:0.04em;margin-bottom:6px">Email</div><input placeholder="you@email.com" style="width:100%;box-sizing:border-box;border:1px solid #D8D3CB;border-radius:6px;padding:13px 14px;font-size:14px;background:#FAF9F6" onChange="{{ setEmail }}"></div>
+            <div><div style="font-size:12.5px;font-weight:700;letter-spacing:0.04em;margin-bottom:6px">City / neighborhood</div><input placeholder="e.g. Kensington, Camden, Chester" style="width:100%;box-sizing:border-box;border:1px solid #D8D3CB;border-radius:6px;padding:13px 14px;font-size:14px;background:#FAF9F6" onChange="{{ setCity }}"></div>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+            <div><div style="font-size:12.5px;font-weight:700;letter-spacing:0.04em;margin-bottom:6px">Experience level</div><select style="width:100%;box-sizing:border-box;border:1px solid #D8D3CB;border-radius:6px;padding:13px 14px;font-size:14px;background:#FAF9F6" onChange="{{ setExperience }}"><option>None &mdash; starting fresh</option><option>Some &mdash; used a washer before</option><option>Working in the trade now</option></select></div>
+            <div><div style="font-size:12.5px;font-weight:700;letter-spacing:0.04em;margin-bottom:6px">I&rsquo;m interested in</div><select style="width:100%;box-sizing:border-box;border:1px solid #D8D3CB;border-radius:6px;padding:13px 14px;font-size:14px;background:#FAF9F6" onChange="{{ setInterest }}"><option>Full BCT path (all 4 courses)</option><option>PowerWash 101 to start</option><option>A sponsored seat, if available</option><option>Not sure yet &mdash; call me</option></select></div>
+          </div>
+          <div><div style="font-size:12.5px;font-weight:700;letter-spacing:0.04em;margin-bottom:6px">Anything we should know? <span style="font-weight:500;color:#85888C">(optional)</span></div><textarea placeholder="Schedule limits, goals, questions&hellip;" style="width:100%;box-sizing:border-box;border:1px solid #D8D3CB;border-radius:6px;padding:13px 14px;font-size:14px;background:#FAF9F6;min-height:80px;resize:vertical" onChange="{{ setNotes }}"></textarea></div>
+          <button onClick="{{ submit }}" style="background:#E8532C;color:#FFFFFF;border:none;cursor:pointer;font-size:14px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;padding:18px 30px;border-radius:4px" style-hover="background:#C7431F">Submit my application</button>
+        </div>
+      </sc-if>
+      <sc-if value="{{ submitted }}" hint-placeholder-val="{{ false }}">
+        <div style="background:#FFFFFF;border:1px solid #E5E1DA;border-radius:10px;padding:48px;text-align:center">
+          <div style="width:64px;height:64px;border-radius:50%;background:#FBEFEA;color:#E8532C;font-size:28px;font-weight:900;display:flex;align-items:center;justify-content:center;margin:0 auto 20px">&#10003;</div>
+          <div style="font-size:24px;font-weight:800;margin-bottom:10px">Application in.</div>
+          <p style="margin:0;font-size:15px;line-height:1.6;color:#4A4E54">Good move{{ thanksName }}. We&rsquo;ll call you to talk cohort dates, tuition, and sponsored-seat options. Keep your phone on.</p>
+        </div>
+      </sc-if>
+    </div>
+  </div>
+</section>
+
+<div data-screen-label="Footer" style="background:#1F2226">
+  <div style="max-width:1200px;margin:0 auto;padding:72px 32px 48px">
+    <div style="display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:48px;padding-bottom:48px;border-bottom:1px solid #34383D">
+      <div>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px">
+          <img src="uploads/logo.png" alt="" style="height:36px;display:block">
+          <div style="color:#FFFFFF;font-weight:800;font-size:18px;letter-spacing:0.01em">BullForce <span style="font-weight:500;color:#9A9DA1;letter-spacing:0.18em;font-size:14px">POWERWASH</span></div>
+        </div>
+        <p style="margin:0;font-size:14px;line-height:1.6;color:#9A9DA1;max-width:340px">Training, certifying, and placing power wash technicians across the Philadelphia region.</p>
+      </div>
+      <div>
+        <div style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.14em;color:#6E7176;margin-bottom:16px">SITE</div>
+        <div style="display:grid;gap:10px">
+          <a href="Training.dc.html" style="font-size:14px;color:#C9CBCE" style-hover="color:#E8532C">Training Modules</a>
+          <a href="Partners.dc.html" style="font-size:14px;color:#C9CBCE" style-hover="color:#E8532C">Hiring Partners</a>
+          <a href="Enroll.dc.html" style="font-size:14px;color:#C9CBCE" style-hover="color:#E8532C">Enroll</a>
+        </div>
+      </div>
+      <div>
+        <div style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.14em;color:#6E7176;margin-bottom:16px">CONTACT</div>
+        <div style="display:grid;gap:10px">
+          <div style="font-size:14px;color:#C9CBCE">(267) 555-0134</div>
+          <div style="font-size:14px;color:#C9CBCE">training@bullforcepowerwash.com</div>
+          <div style="font-size:14px;color:#C9CBCE">Philadelphia, PA &mdash; training facility announcing soon</div>
+        </div>
+      </div>
+    </div>
+    <div style="padding-top:24px;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap">
+      <div style="font-size:12.5px;color:#6E7176">&copy; 2026 BullForce Powerwash. Safety curriculum aligned with OSHA standards.</div>
+      <div style="font-size:12.5px;color:#6E7176">Philadelphia &middot; South Jersey &middot; Delaware County</div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { submitted: false, name: '', phone: '', email: '', city: '', experience: 'None — starting fresh', interest: 'Full BCT path (all 4 courses)', notes: '' };
+  renderVals() {
+    const s = this.state;
+    return {
+      submitted: s.submitted,
+      notSubmitted: !s.submitted,
+      thanksName: s.name ? ', ' + s.name.split(' ')[0] : '',
+      setName: (e) => this.setState({ name: e.target.value }),
+      setPhone: (e) => this.setState({ phone: e.target.value }),
+      setEmail: (e) => this.setState({ email: e.target.value }),
+      setCity: (e) => this.setState({ city: e.target.value }),
+      setExperience: (e) => this.setState({ experience: e.target.value }),
+      setInterest: (e) => this.setState({ interest: e.target.value }),
+      setNotes: (e) => this.setState({ notes: e.target.value }),
+      submit: () => this.setState({ submitted: true })
+    };
+  }
+}
+</script>
+</body>
+</html>

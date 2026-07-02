@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FAF9F6;font-family:'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;color:#202327;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}
+input,select,textarea,button{font-family:inherit}
+image-slot{display:block;width:100%;height:100%}
+</style>
+</helmet>
+
+<div style="position:sticky;top:0;z-index:50;background:rgba(250,249,246,0.94);backdrop-filter:blur(8px);border-bottom:1px solid #E5E1DA">
+  <div style="max-width:1200px;margin:0 auto;padding:0 32px;height:76px;display:flex;align-items:center;justify-content:space-between">
+    <a href="Home.dc.html" style="display:flex;align-items:center"><img src="uploads/logo3.png" alt="BullForce Powerwash" style="height:36px;display:block"></a>
+    <div style="display:flex;align-items:center;gap:28px">
+      <a href="Home.dc.html" style="font-size:14px;font-weight:700;color:#E8532C">Home</a>
+      <a href="Training.dc.html" style="font-size:14px;font-weight:600;color:#4A4E54" style-hover="color:#E8532C">Training</a>
+      <a href="Partners.dc.html" style="font-size:14px;font-weight:600;color:#4A4E54" style-hover="color:#E8532C">Partners</a>
+      <a href="Enroll.dc.html" style="font-size:14px;font-weight:600;color:#4A4E54" style-hover="color:#E8532C">Enroll</a>
+      <a href="Partners.dc.html" style="background:#E8532C;color:#FFFFFF;font-size:13px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;padding:12px 20px;border-radius:4px" style-hover="background:#C7431F">Become a Hiring Partner</a>
+    </div>
+  </div>
+</div>
+
+<section data-screen-label="Hero" style="background:#FAF9F6">
+  <div style="max-width:1200px;margin:0 auto;padding:88px 32px 96px;display:grid;grid-template-columns:1.05fr 0.95fr;gap:64px;align-items:center">
+    <div>
+      <div style="font-family:ui-monospace,'Menlo',monospace;font-size:12px;font-weight:700;letter-spacing:0.18em;color:#E8532C;margin-bottom:20px">PHILADELPHIA &middot; SOUTH JERSEY &middot; DELAWARE COUNTY</div>
+      <h1 style="margin:0 0 24px;font-size:68px;font-weight:900;line-height:0.98;letter-spacing:-0.015em;text-transform:uppercase">Trained. Certified. <span style="color:#E8532C">Ready to work.</span></h1>
+      <p style="margin:0 0 36px;font-size:18px;line-height:1.6;color:#4A4E54;max-width:520px">BullForce trains power wash technicians the right way &mdash; OSHA-aligned safety, professional technique, chemical discipline, and customer service &mdash; then places them with top-rated companies across the Philadelphia region.</p>
+      <div style="display:flex;align-items:center;gap:16px;margin-bottom:32px">
+        <a href="Partners.dc.html" style="display:inline-flex;align-items:center;background:#E8532C;color:#FFFFFF;font-size:14px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;padding:18px 30px;border-radius:4px" style-hover="background:#C7431F">Become a Hiring Partner</a>
+        <a href="Training.dc.html" style="display:inline-flex;align-items:center;border:2px solid #202327;color:#202327;font-size:14px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;padding:16px 28px;border-radius:4px" style-hover="background:#202327;color:#FFFFFF">Explore the Training</a>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:10px">
+        <span style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.1em;color:#4A4E54;border:1px solid #D8D3CB;border-radius:999px;padding:8px 14px;background:#FFFFFF">OSHA-ALIGNED SAFETY</span>
+        <span style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.1em;color:#4A4E54;border:1px solid #D8D3CB;border-radius:999px;padding:8px 14px;background:#FFFFFF">HYBRID: ONLINE + FIELD</span>
+        <span style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.1em;color:#4A4E54;border:1px solid #D8D3CB;border-radius:999px;padding:8px 14px;background:#FFFFFF">JOB PLACEMENT FOCUS</span>
+      </div>
+    </div>
+    <div style="position:relative">
+      <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="hero-jobsite" shape="rounded" radius="10" placeholder="Drop a job-site photo &mdash; crew, wand in hand, real work" style="width:100%;height:520px;display:block" hint-size="100%,520px"></x-import>
+      <div style="position:absolute;left:-28px;bottom:-30px;width:300px;background:#FFFFFF;border-radius:10px;box-shadow:0 24px 48px rgba(32,35,39,0.18);transform:rotate(-2deg);overflow:hidden">
+        <div style="padding:18px 20px 14px;display:flex;align-items:center;gap:10px;border-bottom:1px solid #EEEAE3">
+          <img src="uploads/logo.png" alt="" style="height:26px;display:block">
+          <div style="font-family:ui-monospace,'Menlo',monospace;font-size:10px;font-weight:700;letter-spacing:0.14em;color:#85888C">BULLFORCE POWERWASH</div>
+        </div>
+        <div style="padding:16px 20px 18px">
+          <div style="font-size:17px;font-weight:800;margin-bottom:2px">BullForce Certified Technician</div>
+          <div style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;color:#85888C;margin-bottom:12px">ID BCT-2026-0148</div>
+          <div style="font-size:12px;font-weight:600;color:#4A4E54">OSHA-aligned safety training verified</div>
+        </div>
+        <div style="height:8px;background:#E8532C"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Stats" style="background:#1F2226">
+  <div style="max-width:1200px;margin:0 auto;padding:56px 32px;display:grid;grid-template-columns:repeat(4,1fr);gap:32px">
+    <div>
+      <div style="font-size:40px;font-weight:900;color:#FFFFFF;line-height:1">4</div>
+      <div style="font-size:13px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#9A9DA1;margin-top:8px">Certification courses</div>
+    </div>
+    <div>
+      <div style="font-size:40px;font-weight:900;color:#FFFFFF;line-height:1">90+</div>
+      <div style="font-size:13px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#9A9DA1;margin-top:8px">Training hours per tech</div>
+    </div>
+    <div>
+      <div style="font-size:40px;font-weight:900;color:#FFFFFF;line-height:1">75%</div>
+      <div style="font-size:13px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#9A9DA1;margin-top:8px">Minimum exam score to certify</div>
+    </div>
+    <div>
+      <div style="font-size:40px;font-weight:900;color:#E8532C;line-height:1">3</div>
+      <div style="font-size:13px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#9A9DA1;margin-top:8px">County hiring network</div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="The Model" style="background:#FFFFFF">
+  <div style="max-width:1200px;margin:0 auto;padding:104px 32px">
+    <div style="font-family:ui-monospace,'Menlo',monospace;font-size:12px;font-weight:700;letter-spacing:0.18em;color:#E8532C;margin-bottom:16px">THE MODEL</div>
+    <h2 style="margin:0 0 16px;font-size:46px;font-weight:800;letter-spacing:-0.01em;max-width:640px">Built on the four P&rsquo;s.</h2>
+    <p style="margin:0 0 56px;font-size:17px;line-height:1.6;color:#4A4E54;max-width:640px">A training product, priced honestly, delivered where techs actually learn, and finished with the thing that matters most: a job.</p>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px">
+      <div style="border-top:3px solid #E8532C;padding-top:24px">
+        <div style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.14em;color:#85888C;margin-bottom:10px">01 &mdash; PRODUCT</div>
+        <div style="font-size:20px;font-weight:800;margin-bottom:10px">The training</div>
+        <p style="margin:0;font-size:14px;line-height:1.6;color:#4A4E54">Four certification courses covering equipment, technique, chemical handling, safety, and the customer &mdash; built from a working curriculum, not theory.</p>
+      </div>
+      <div style="border-top:3px solid #E8532C;padding-top:24px">
+        <div style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.14em;color:#85888C;margin-bottom:10px">02 &mdash; PRICE</div>
+        <div style="font-size:20px;font-weight:800;margin-bottom:10px">The cost</div>
+        <p style="margin:0;font-size:14px;line-height:1.6;color:#4A4E54">Transparent per-course tuition, a full-path bundle, and employer-sponsored seats &mdash; partners can fund a seat and get first right to hire.</p>
+      </div>
+      <div style="border-top:3px solid #E8532C;padding-top:24px">
+        <div style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.14em;color:#85888C;margin-bottom:10px">03 &mdash; PLACE</div>
+        <div style="font-size:20px;font-weight:800;margin-bottom:10px">The classroom</div>
+        <p style="margin:0;font-size:14px;line-height:1.6;color:#4A4E54">Hybrid delivery: self-paced online modules plus hands-on field days in Philadelphia &mdash; wand time, ladder time, real surfaces.</p>
+      </div>
+      <div style="border-top:3px solid #E8532C;padding-top:24px">
+        <div style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.14em;color:#85888C;margin-bottom:10px">04 &mdash; PLACEMENT</div>
+        <div style="font-size:20px;font-weight:800;margin-bottom:10px">The job</div>
+        <p style="margin:0;font-size:14px;line-height:1.6;color:#4A4E54">Graduates are introduced to vetted hiring partners across Philly, South Jersey, and Delaware County &mdash; companies that approve of how we train.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Courses" style="background:#FAF9F6;border-top:1px solid #EEEAE3">
+  <div style="max-width:1200px;margin:0 auto;padding:104px 32px">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:32px;margin-bottom:48px">
+      <div>
+        <div style="font-family:ui-monospace,'Menlo',monospace;font-size:12px;font-weight:700;letter-spacing:0.18em;color:#E8532C;margin-bottom:16px">TRAINING MODULES</div>
+        <h2 style="margin:0;font-size:46px;font-weight:800;letter-spacing:-0.01em">Four courses. One credential.</h2>
+      </div>
+      <a href="Training.dc.html" style="flex-shrink:0;font-size:14px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#E8532C;border-bottom:2px solid #E8532C;padding-bottom:4px">Full curriculum &rarr;</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:20px">
+      <a href="Training.dc.html" style="display:block;background:#FFFFFF;border:1px solid #E5E1DA;border-radius:8px;padding:26px" style-hover="border-color:#E8532C;box-shadow:0 12px 28px rgba(32,35,39,0.08)">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px">
+          <span style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.1em;color:#E8532C;background:#FBEFEA;border-radius:4px;padding:6px 10px">BF-101</span>
+          <span style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;color:#85888C">24 HRS</span>
+        </div>
+        <div style="font-size:19px;font-weight:800;margin-bottom:8px">PowerWash 101</div>
+        <p style="margin:0 0 20px;font-size:13.5px;line-height:1.55;color:#4A4E54">Equipment, nozzles, PSI/GPM, surfaces, and safety fundamentals. Where every tech starts.</p>
+        <div style="font-size:17px;font-weight:800">$249</div>
+      </a>
+      <a href="Training.dc.html" style="display:block;background:#FFFFFF;border:1px solid #E5E1DA;border-radius:8px;padding:26px" style-hover="border-color:#E8532C;box-shadow:0 12px 28px rgba(32,35,39,0.08)">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px">
+          <span style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.1em;color:#E8532C;background:#FBEFEA;border-radius:4px;padding:6px 10px">BF-102</span>
+          <span style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;color:#85888C">28 HRS</span>
+        </div>
+        <div style="font-size:19px;font-weight:800;margin-bottom:8px">PowerWash 102</div>
+        <p style="margin:0 0 20px;font-size:13.5px;line-height:1.55;color:#4A4E54">Hot water, chemical handling, water control, and specialized cleaning &mdash; graffiti, gum, stains.</p>
+        <div style="font-size:17px;font-weight:800">$299</div>
+      </a>
+      <a href="Training.dc.html" style="display:block;background:#FFFFFF;border:1px solid #E5E1DA;border-radius:8px;padding:26px" style-hover="border-color:#E8532C;box-shadow:0 12px 28px rgba(32,35,39,0.08)">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px">
+          <span style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.1em;color:#E8532C;background:#FBEFEA;border-radius:4px;padding:6px 10px">BF-201</span>
+          <span style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;color:#85888C">20 HRS</span>
+        </div>
+        <div style="font-size:19px;font-weight:800;margin-bottom:8px">Roof Washing 201</div>
+        <p style="margin:0 0 20px;font-size:13.5px;line-height:1.55;color:#4A4E54">Soft-wash systems, SH mixing and ratios, fall protection, and property protection.</p>
+        <div style="font-size:17px;font-weight:800">$349</div>
+      </a>
+      <a href="Training.dc.html" style="display:block;background:#FFFFFF;border:1px solid #E5E1DA;border-radius:8px;padding:26px" style-hover="border-color:#E8532C;box-shadow:0 12px 28px rgba(32,35,39,0.08)">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px">
+          <span style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.1em;color:#E8532C;background:#FBEFEA;border-radius:4px;padding:6px 10px">BF-301</span>
+          <span style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;color:#85888C">20 HRS</span>
+        </div>
+        <div style="font-size:19px;font-weight:800;margin-bottom:8px">House Washing 301</div>
+        <p style="margin:0 0 20px;font-size:13.5px;line-height:1.55;color:#4A4E54">Residential house wash, estimates, scheduling, and customer service that wins referrals.</p>
+        <div style="font-size:17px;font-weight:800">$349</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Certification" style="background:#1F2226">
+  <div style="max-width:1200px;margin:0 auto;padding:104px 32px;display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center">
+    <div>
+      <div style="font-family:ui-monospace,'Menlo',monospace;font-size:12px;font-weight:700;letter-spacing:0.18em;color:#E8532C;margin-bottom:16px">THE CREDENTIAL</div>
+      <h2 style="margin:0 0 20px;font-size:46px;font-weight:800;letter-spacing:-0.01em;color:#FFFFFF">A certification employers can trust.</h2>
+      <p style="margin:0 0 36px;font-size:16px;line-height:1.65;color:#B9BCC0">The BullForce Certified Technician (BCT) credential isn&rsquo;t a participation trophy. Every tech who carries it has cleared the same bar:</p>
+      <div style="display:grid;gap:16px">
+        <div style="display:flex;gap:14px;align-items:baseline"><span style="color:#E8532C;font-weight:900">&#10003;</span><span style="font-size:15px;line-height:1.5;color:#E7E5E1">Completed all four certification courses &mdash; online modules and supervised field days</span></div>
+        <div style="display:flex;gap:14px;align-items:baseline"><span style="color:#E8532C;font-weight:900">&#10003;</span><span style="font-size:15px;line-height:1.5;color:#E7E5E1">Scored 75% or better on every written exam</span></div>
+        <div style="display:flex;gap:14px;align-items:baseline"><span style="color:#E8532C;font-weight:900">&#10003;</span><span style="font-size:15px;line-height:1.5;color:#E7E5E1">Passed a hands-on field assessment &mdash; equipment, technique, and job-site conduct</span></div>
+        <div style="display:flex;gap:14px;align-items:baseline"><span style="color:#E8532C;font-weight:900">&#10003;</span><span style="font-size:15px;line-height:1.5;color:#E7E5E1">Demonstrated PPE discipline and completed a job hazard analysis, OSHA-aligned</span></div>
+      </div>
+    </div>
+    <div style="display:flex;justify-content:center">
+      <div style="width:420px;background:#FFFFFF;border-radius:12px;overflow:hidden;box-shadow:0 32px 64px rgba(0,0,0,0.4);transform:rotate(1.5deg)">
+        <div style="padding:28px 32px 20px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #EEEAE3">
+          <img src="uploads/logo3.png" alt="BullForce Powerwash" style="height:30px;display:block">
+          <span style="font-family:ui-monospace,'Menlo',monospace;font-size:10px;font-weight:700;letter-spacing:0.14em;color:#85888C">EST. PHILA, PA</span>
+        </div>
+        <div style="padding:28px 32px 30px">
+          <div style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.16em;color:#E8532C;margin-bottom:10px">CERTIFICATE OF QUALIFICATION</div>
+          <div style="font-size:26px;font-weight:900;line-height:1.15;margin-bottom:18px">BullForce Certified Technician</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:22px">
+            <div><div style="font-family:ui-monospace,'Menlo',monospace;font-size:10px;letter-spacing:0.12em;color:#85888C;margin-bottom:4px">TECHNICIAN</div><div style="font-size:14px;font-weight:700;border-bottom:1px solid #D8D3CB;padding-bottom:4px">Technician Name</div></div>
+            <div><div style="font-family:ui-monospace,'Menlo',monospace;font-size:10px;letter-spacing:0.12em;color:#85888C;margin-bottom:4px">CREDENTIAL ID</div><div style="font-size:14px;font-weight:700;border-bottom:1px solid #D8D3CB;padding-bottom:4px">BCT-2026-0000</div></div>
+            <div><div style="font-family:ui-monospace,'Menlo',monospace;font-size:10px;letter-spacing:0.12em;color:#85888C;margin-bottom:4px">COURSES</div><div style="font-size:14px;font-weight:700;border-bottom:1px solid #D8D3CB;padding-bottom:4px">101 &middot; 102 &middot; 201 &middot; 301</div></div>
+            <div><div style="font-family:ui-monospace,'Menlo',monospace;font-size:10px;letter-spacing:0.12em;color:#85888C;margin-bottom:4px">VALID THRU</div><div style="font-size:14px;font-weight:700;border-bottom:1px solid #D8D3CB;padding-bottom:4px">2 years from issue</div></div>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px">
+            <img src="uploads/logo.png" alt="" style="height:34px;display:block">
+            <div style="font-size:11.5px;line-height:1.45;color:#4A4E54;font-weight:600">Safety practices aligned with OSHA standards.<br>Field-assessed by BullForce instructors.</div>
+          </div>
+        </div>
+        <div style="height:10px;background:#E8532C"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Backed Local" style="background:#FFFFFF">
+  <div style="max-width:1200px;margin:0 auto;padding:104px 32px;display:grid;grid-template-columns:1.1fr 0.9fr;gap:72px;align-items:center">
+    <div>
+      <div style="font-family:ui-monospace,'Menlo',monospace;font-size:12px;font-weight:700;letter-spacing:0.18em;color:#E8532C;margin-bottom:16px">BACKED LOCAL</div>
+      <h2 style="margin:0 0 20px;font-size:46px;font-weight:800;letter-spacing:-0.01em">Built in Philadelphia, for Philadelphia crews.</h2>
+      <p style="margin:0 0 18px;font-size:16px;line-height:1.65;color:#4A4E54">BullForce is a Philadelphia workforce business: we train people from the neighborhoods we serve and place them with the region&rsquo;s top-producing exterior cleaning companies. Every graduate strengthens a local crew &mdash; and a local block.</p>
+      <p style="margin:0;font-size:16px;line-height:1.65;color:#4A4E54">We&rsquo;re pursuing support through the City of Philadelphia Department of Commerce <strong>Small Business Catalyst Fund</strong> &mdash; a $5M investment in neighborhood businesses that create jobs.</p>
+    </div>
+    <div style="background:#FAF9F6;border:1px solid #E5E1DA;border-radius:10px;padding:36px">
+      <div style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.16em;color:#85888C;margin-bottom:20px">PLACEMENT NETWORK &mdash; SERVICE AREA</div>
+      <div style="display:grid;gap:14px">
+        <div style="display:flex;justify-content:space-between;border-bottom:1px solid #E5E1DA;padding-bottom:12px"><span style="font-size:15px;font-weight:700">Philadelphia County</span><span style="font-size:13px;color:#85888C;font-weight:600">PA</span></div>
+        <div style="display:flex;justify-content:space-between;border-bottom:1px solid #E5E1DA;padding-bottom:12px"><span style="font-size:15px;font-weight:700">Delaware County</span><span style="font-size:13px;color:#85888C;font-weight:600">PA</span></div>
+        <div style="display:flex;justify-content:space-between;border-bottom:1px solid #E5E1DA;padding-bottom:12px"><span style="font-size:15px;font-weight:700">Montgomery &amp; Bucks Counties</span><span style="font-size:13px;color:#85888C;font-weight:600">PA</span></div>
+        <div style="display:flex;justify-content:space-between;border-bottom:1px solid #E5E1DA;padding-bottom:12px"><span style="font-size:15px;font-weight:700">Camden &amp; Gloucester Counties</span><span style="font-size:13px;color:#85888C;font-weight:600">NJ</span></div>
+        <div style="display:flex;justify-content:space-between"><span style="font-size:15px;font-weight:700">Burlington County</span><span style="font-size:13px;color:#85888C;font-weight:600">NJ</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<sc-if value="{{ showTestimonials }}" hint-placeholder-val="{{ true }}">
+<section data-screen-label="Testimonials" style="background:#FAF9F6;border-top:1px solid #EEEAE3">
+  <div style="max-width:1200px;margin:0 auto;padding:104px 32px">
+    <div style="font-family:ui-monospace,'Menlo',monospace;font-size:12px;font-weight:700;letter-spacing:0.18em;color:#E8532C;margin-bottom:16px">GRADUATE STORIES</div>
+    <h2 style="margin:0 0 48px;font-size:46px;font-weight:800;letter-spacing:-0.01em">From training day to payday.</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px">
+      <div style="background:#FFFFFF;border:1px solid #E5E1DA;border-radius:10px;padding:36px;position:relative">
+        <span style="position:absolute;top:20px;right:20px;font-family:ui-monospace,'Menlo',monospace;font-size:10px;font-weight:700;letter-spacing:0.1em;color:#85888C;border:1px dashed #C9C4BB;border-radius:4px;padding:4px 8px">SAMPLE &mdash; COHORT 1</span>
+        <p style="margin:0 0 24px;font-size:18px;line-height:1.6;font-weight:500">&ldquo;I came in never having touched a pressure washer. Twelve weeks later I was certified, on a crew, and earning &mdash; and the safety training is why they hired me first.&rdquo;</p>
+        <div style="display:flex;align-items:center;gap:14px">
+          <div style="width:52px;height:52px;flex-shrink:0"><x-import component-from-global-scope="image-slot" from="./image-slot.js" id="grad-1" shape="circle" placeholder="Photo" style="width:100%;height:100%;display:block" hint-size="52px,52px"></x-import></div>
+          <div><div style="font-size:14px;font-weight:800">Graduate name</div><div style="font-size:13px;color:#85888C">BCT &middot; Placed &mdash; Philadelphia, PA</div></div>
+        </div>
+      </div>
+      <div style="background:#FFFFFF;border:1px solid #E5E1DA;border-radius:10px;padding:36px;position:relative">
+        <span style="position:absolute;top:20px;right:20px;font-family:ui-monospace,'Menlo',monospace;font-size:10px;font-weight:700;letter-spacing:0.1em;color:#85888C;border:1px dashed #C9C4BB;border-radius:4px;padding:4px 8px">SAMPLE &mdash; PARTNER</span>
+        <p style="margin:0 0 24px;font-size:18px;line-height:1.6;font-weight:500">&ldquo;BullForce grads show up knowing downstreaming, PPE, and how to talk to a homeowner. That&rsquo;s months of onboarding I don&rsquo;t have to pay for.&rdquo;</p>
+        <div style="display:flex;align-items:center;gap:14px">
+          <div style="width:52px;height:52px;flex-shrink:0"><x-import component-from-global-scope="image-slot" from="./image-slot.js" id="partner-1" shape="circle" placeholder="Photo" style="width:100%;height:100%;display:block" hint-size="52px,52px"></x-import></div>
+          <div><div style="font-size:14px;font-weight:800">Owner name</div><div style="font-size:13px;color:#85888C">Hiring Partner &mdash; South Jersey</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</sc-if>
+
+<section data-screen-label="Partner CTA" style="background:#E8532C">
+  <div style="max-width:1200px;margin:0 auto;padding:88px 32px;display:flex;align-items:center;justify-content:space-between;gap:48px;flex-wrap:wrap">
+    <div style="max-width:640px">
+      <h2 style="margin:0 0 14px;font-size:44px;font-weight:900;letter-spacing:-0.01em;color:#FFFFFF;text-transform:uppercase">Hiring this season? Get first pick.</h2>
+      <p style="margin:0;font-size:17px;line-height:1.6;color:rgba(255,255,255,0.9)">Founding partner seats are open across Philadelphia, South Jersey, and Delaware County. Shape the training. Meet the graduates first.</p>
+    </div>
+    <a href="Partners.dc.html" style="flex-shrink:0;display:inline-flex;align-items:center;background:#1F2226;color:#FFFFFF;font-size:14px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;padding:20px 34px;border-radius:4px" style-hover="background:#000000">Become a Hiring Partner</a>
+  </div>
+</section>
+
+<div data-screen-label="Footer" style="background:#1F2226">
+  <div style="max-width:1200px;margin:0 auto;padding:72px 32px 48px">
+    <div style="display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:48px;padding-bottom:48px;border-bottom:1px solid #34383D">
+      <div>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px">
+          <img src="uploads/logo.png" alt="" style="height:36px;display:block">
+          <div style="color:#FFFFFF;font-weight:800;font-size:18px;letter-spacing:0.01em">BullForce <span style="font-weight:500;color:#9A9DA1;letter-spacing:0.18em;font-size:14px">POWERWASH</span></div>
+        </div>
+        <p style="margin:0;font-size:14px;line-height:1.6;color:#9A9DA1;max-width:340px">Training, certifying, and placing power wash technicians across the Philadelphia region.</p>
+      </div>
+      <div>
+        <div style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.14em;color:#6E7176;margin-bottom:16px">SITE</div>
+        <div style="display:grid;gap:10px">
+          <a href="Training.dc.html" style="font-size:14px;color:#C9CBCE" style-hover="color:#E8532C">Training Modules</a>
+          <a href="Partners.dc.html" style="font-size:14px;color:#C9CBCE" style-hover="color:#E8532C">Hiring Partners</a>
+          <a href="Enroll.dc.html" style="font-size:14px;color:#C9CBCE" style-hover="color:#E8532C">Enroll</a>
+        </div>
+      </div>
+      <div>
+        <div style="font-family:ui-monospace,'Menlo',monospace;font-size:11px;font-weight:700;letter-spacing:0.14em;color:#6E7176;margin-bottom:16px">CONTACT</div>
+        <div style="display:grid;gap:10px">
+          <div style="font-size:14px;color:#C9CBCE">(267) 555-0134</div>
+          <div style="font-size:14px;color:#C9CBCE">training@bullforcepowerwash.com</div>
+          <div style="font-size:14px;color:#C9CBCE">Philadelphia, PA &mdash; training facility announcing soon</div>
+        </div>
+      </div>
+    </div>
+    <div style="padding-top:24px;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap">
+      <div style="font-size:12.5px;color:#6E7176">&copy; 2026 BullForce Powerwash. Safety curriculum aligned with OSHA standards.</div>
+      <div style="font-size:12.5px;color:#6E7176">Philadelphia &middot; South Jersey &middot; Delaware County</div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showSampleTestimonials&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Content&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      showTestimonials: this.props.showSampleTestimonials ?? true
+    };
+  }
+}
+</script>
+</body>
+</html>
